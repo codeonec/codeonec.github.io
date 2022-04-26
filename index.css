@@ -23,6 +23,12 @@
   pointer-events: none;
 }
 
+@media (max-width: 575.98px) {
+  .cursor {
+    display: none;
+  }
+}
+
 .cursor.link-grow {
   height: 50px;
   width: 50px;
@@ -38,9 +44,10 @@ body {
 }
 
 nav {
-  position: fixed;
+  position: absolute;
   top: 0;
   padding: 30px 50px;
+  background: transparent;
 }
 
 nav .brand {

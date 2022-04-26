@@ -116,7 +116,7 @@ nav .brand {
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 40px;
+  font-size: calc(1.375rem + 1.5vw);
   line-height: 1.5;
   font-weight: 600;
 }
@@ -127,6 +127,12 @@ nav .brand {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+@media (min-width: 1200px) {
+  .about {
+    font-size: 40px;
+  }
 }
 
 .contact {
@@ -186,7 +192,13 @@ nav .brand {
 }
 
 .contact .mail a {
-  font-size: 32px;
+  font-size: calc(1.325rem + .9vw);
+}
+
+@media (min-width: 1200px) {
+  .contact .mail a {
+    font-size: 32px;
+  }
 }
 
 .contact .social {

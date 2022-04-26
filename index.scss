@@ -102,9 +102,12 @@ nav{
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 40px;
+    font-size: calc(1.375rem + 1.5vw);
     line-height: 1.5;
     font-weight: 600;
+    @media (min-width: 1200px){
+        font-size: 40px;
+    }
 }
 
 .contact{
@@ -150,7 +153,10 @@ nav{
     .mail{
         margin-bottom: 50px;
         a{
-            font-size: 32px;
+            font-size: calc(1.325rem + .9vw);
+            @media (min-width: 1200px){
+                font-size: 32px;
+            }
         }
     }
     .social{

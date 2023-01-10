@@ -1,53 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ritul Patel</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
-    <link rel="stylesheet" href="./index.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
     <div class="cursor"></div>
     <div class="scroll-container">
-        <nav>
-            <div class="brand">Portfolio.</div>
-        </nav>
-        <div class="hero">
-            <div class="title-tag">
-                Hi there <img height="16" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/325/waving-hand_1f44b.png" />,
-            </div>
-            <div class="title-text">I'm Ritul</div>
-            <div class="title-name">Website & UI designer</div>
-            <div class="desc">I'm a designer and developer based in India who creates digital experiences and interfaces.</div>
+      <nav>
+        <div class="brand">Portfolio.</div>
+        <div class="nav-links">
+          <span class="about-link nav-link">About</span>
+          <span class="work-link nav-link">Work</span>
+          <span class="contact-link nav-link">Contact</span>
         </div>
-        <div class="about">
-            <div class="section-head"><span>ABOUT</span></div>
-            I’m a designer based in India and available for full-time roles & freelance projects. I design powerful and interactive websites on modern tech stacks that run across multiple platforms and devices. 
+      </nav>
+      <div class="hero">
+        <div class="title-tag">
+          Hi there
+          <img
+            height="16"
+            src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/325/waving-hand_1f44b.png"
+          />,
         </div>
-        <div class="contact">
-            <div class="mail">
-                <div class="section-head"><span>MAIL</span></div>
-                <a href="mailto:ritul.patel904@gmail.com">ritul.patel904@gmail.com</a>
+        <div class="title-text">I'm Ritul</div>
+        <div class="title-name">Website & UI designer</div>
+        <div class="desc">
+          I'm a designer and developer based in Canada who creates digital
+          experiences and interfaces.
+        </div>
+      </div>
+      <div class="about" id="about">
+        <div class="section-head"><span>ABOUT</span></div>
+        I’m a designer based in Canada and available for full-time roles &
+        freelance projects. I design powerful and interactive websites on modern
+        tech stacks that run across multiple platforms and devices.
+      </div>
+      <div class="work" id="work">
+        <div class="project-section">
+          <div class="section-head"><span>PROJECTS</span></div>
+          <div class="project-card">
+            <div class="project-card-head">
+              <div class="project-icon">
+                <img
+                  src="./assets/stact.svg"
+                  alt="stact"
+                  height="25"
+                  width="25"
+                />
+              </div>
+              <div class="project-title">Stact</div>
+              <a
+                href="https://stact.vercel.app"
+                target="_blank"
+                class="project-link"
+                >Visit</a
+              >
             </div>
-            <div class="social">
-                <div class="section-head"><span>SOCIAL</span></div>
-                <div class="links">
-                    <a href="https://twitter.com/ritulspatel">Twitter</a>
-                    <a href="https://www.instagram.com/ritulspatel/">Instagram</a>
-                    <a href="https://github.com/codeonec/">GitHub</a>
-                    <a href="https://www.linkedin.com/in/ritul-patel-a2749b196/">LinkedIn</a>
+            <div class="project-card-body">
+              Stact is a ReactJS-based multi-purpose front-end template. It has
+              over 15 pages with a mobile-friendly UI that is simple, clean, and
+              easy to navigate.
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-card-head">
+              <div class="project-icon">
+                <img
+                  src="./assets/designbase.svg"
+                  alt="stact"
+                  height="25"
+                  width="25"
+                />
+              </div>
+              <div class="project-title">DesignBase</div>
+              <a
+                href="https://designbase.vercel.app"
+                target="_blank"
+                class="project-link"
+                >Visit</a
+              >
+            </div>
+            <div class="project-card-body">
+              A curated collection of helpful websites that were created using
+              Next JS static generation and contain 200+ design resources such
+              as illustrations, fonts, icons, UI Inspirations, Design Systems,
+              Design Guides, and so on. Open Source library built with React JS,
+              Next JS, and a structured JSON database.
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-card-head">
+              <div class="project-icon">
+                <img
+                  src="./assets/masterpiece.svg"
+                  alt="stact"
+                  height="25"
+                  width="25"
+                />
+              </div>
+              <div class="project-title">Masterpiece</div>
+              <a
+                href="https://codeonec.netlify.app/masterpiece/index.html"
+                target="_blank"
+                class="project-link"
+                >Visit</a
+              >
+            </div>
+            <div class="project-card-body">
+              Bootstrap-based static Front End template designed for
+              enterprises, startups, and digital agencies. Available exclusively
+              on Themeforest with 50+ sales
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-card-head">
+              <div class="project-icon">
+                <img
+                  src="./assets/prodco.svg"
+                  alt="stact"
+                  height="25"
+                  width="25"
+                />
+              </div>
+              <div class="project-title">ProdCo</div>
+              <a
+                href="https://codeonec.netlify.app/prodco/index.html"
+                target="_blank"
+                class="project-link"
+                >Visit</a
+              >
+            </div>
+            <div class="project-card-body">
+              ProdCo is a product landing page template with two dark and light
+              mode designs. Sold more than 30 times on Themeforest.
+            </div>
+          </div>
+        </div>
+        <div class="work-section">
+          <div class="section-head"><span>WORK</span></div>
+          <div class="work-card">
+            <div class="work-item">
+              <div class="work-icon">
+                <img src="./assets/pilot.png" alt="pilot" height="25" />
+              </div>
+              <div class="work-body">
+                <div class="work-title">
+                  Junior Software Engineer <span class="light">at</span> Pilot
                 </div>
+                <div class="work-period">June 2022 - Dec 2022</div>
+              </div>
             </div>
+            <div class="work-item">
+              <div class="work-icon">
+                <img
+                  src="./assets/themeforest.png"
+                  alt="themeforest"
+                  height="25"
+                />
+              </div>
+              <div class="work-body">
+                <div class="work-title">Themeforest Author</div>
+                <div class="work-period">Jan 2020 - Present (Part-time)</div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="contact" id="contact">
+        <div class="mail">
+          <div class="section-head"><span>MAIL</span></div>
+          <a href="mailto:ritul.patel904@gmail.com">ritul.patel904@gmail.com</a>
+        </div>
+        <div class="social">
+          <div class="section-head"><span>SOCIAL</span></div>
+          <div class="links">
+            <a href="https://twitter.com/ritulspatel">Twitter</a>
+            <a href="https://www.instagram.com/ritulspatel/">Instagram</a>
+            <a href="https://github.com/codeonec/">GitHub</a>
+            <a href="https://www.linkedin.com/in/ritul-patel-a2749b196/"
+              >LinkedIn</a
+            >
+            <a href="https://codeonec.netlify.app/">Website</a>
+            <a href="https://themeforest.net/user/codeonec/portfolio"
+              >Themeforest</a
+            >
+          </div>
+        </div>
+      </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>	
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.1/dist/locomotive-scroll.min.js"></script>
     <script src="./main.js"></script>
-</body>
+  </body>
 </html>
